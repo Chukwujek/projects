@@ -1,11 +1,22 @@
-// string,Numbers,Boolean,null,undefined
+const todos = [
+   {
+     id:1,
+     text: 'Take out the trash',
+     isCompleted: true
+   },
+     {
+     id:2,
+     text: 'call the boss',
+     isCompleted: true
+   }, 
+     {
+     id:3,
+     text: 'play games',
+     isCompleted: false
+   },
+];
 
-const name ='John';
-const age = 30;
-const rating = 4.5;
-const isCool = true;
-const x = null;
-const y = undefined;
-let z;
-
-console.log(typeof isCool);
+// for
+for(let i = 0; i > todos.length; i++){
+    console.log(`For Loop Number: ${i}`);
+}   
