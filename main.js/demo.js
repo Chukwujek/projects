@@ -4,12 +4,12 @@ const todos = [
      text: 'Take out the trash',
      isCompleted: true
    },
-     {
+   {
      id:2,
      text: 'call the boss',
      isCompleted: true
    }, 
-     {
+   {
      id:3,
      text: 'play games',
      isCompleted: false
