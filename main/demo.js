@@ -24,5 +24,16 @@ for(let i = 0; i <= todos.length; i++){
 // comparison operators
 x = 2 == 2;
 x = 2 === '2';
+x = 2 != 2 ;
+x = 2 !== '2';
+x = 2 > 1;
+x = 2 < 1;
+x = 2 >= 2;
+x = 2 <= 1;
+
+let x;
+x = 5 + '5';
+
+x = 5 + Number('5');
 
 console.log(x);
